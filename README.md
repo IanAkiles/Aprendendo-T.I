@@ -13,6 +13,8 @@ App React + TypeScript + Tailwind (Vite) com todas as melhorias pedidas:
 
 ## Rodando localmente
 
+Esta cópia inclui a configuração do Vite, mas falta a pasta `src/`, inclusive o ponto de entrada `src/main.tsx`. Recupere a pasta do projeto original antes de usar os comandos abaixo. A configuração opcional do ranking também precisa de `supabase/schema.sql`, ausente nesta cópia.
+
 ```bash
 npm install
 npm run dev
